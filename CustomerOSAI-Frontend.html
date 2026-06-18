@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CustomerOS AI</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#f4f4f4}
+header{background:#222;color:#fff;padding:16px}
+.container{max-width:1100px;margin:auto;padding:20px}
+.cards{display:flex;gap:16px;flex-wrap:wrap}
+.card{background:#fff;padding:16px;border-radius:10px;flex:1;min-width:200px;box-shadow:0 2px 6px rgba(0,0,0,.1)}
+.ticket{background:#fff;padding:20px;border-radius:10px;margin-top:20px;box-shadow:0 2px 6px rgba(0,0,0,.1)}
+textarea{width:100%;height:120px}
+button{padding:10px 16px;margin-right:10px;cursor:pointer}
+</style>
+</head>
+<body>
+<header>
+<h1>CustomerOS AI</h1>
+</header>
+
+<div class="container">
+<div class="cards">
+<div class="card"><h3>Open Tickets</h3><h2>12</h2></div>
+<div class="card"><h3>Resolved Today</h3><h2>34</h2></div>
+<div class="card"><h3>Avg Response Time</h3><h2>4m</h2></div>
+</div>
+
+<div class="ticket">
+<h2>Ticket #1452</h2>
+<p><strong>User:</strong> Mason</p>
+<p><strong>Category:</strong> Billing</p>
+
+<h3>Customer Message</h3>
+<p>I bought the game pass but didn't receive it.</p>
+
+<h3>AI Suggested Reply</h3>
+<textarea>Hello! Sorry to hear that. Could you provide your username and proof of purchase so we can investigate?</textarea>
+
+<br><br>
+<button>Edit Reply</button>
+<button>Send Reply</button>
+<button>Close Ticket</button>
+</div>
+</div>
+</body>
+</html>
